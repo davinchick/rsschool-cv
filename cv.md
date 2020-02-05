@@ -33,6 +33,7 @@ So, I started my self-education stage.
   
   I graduated from Mogilev University of Food Industry as an food process engineer-technologist.
   I'm currently studying and use the resources of these sites:
+  - [rs.school.com]
   - [htmlacademy.ru] 
   - [html5book.ru]
   = [css-live.ru]
