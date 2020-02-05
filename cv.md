@@ -16,6 +16,7 @@ So, I started my self-education stage.
   
      And more I can add, that I gain a lot of *skills* during my previous works, such as:
      - teamwork
+     - quickly work
      - stress resistance!
      - responsibility
      - diligence
