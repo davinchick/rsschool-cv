@@ -136,6 +136,10 @@ header{
 
 .menu{
     width: 100%;
+    position: fixed;
+    left: 20%;
+    background-color: #0000001f;
+    padding-bottom: 10px;
 }
 
 .menu ul{
@@ -190,6 +194,7 @@ header{
 .fewWords__row{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .fewWords__column{
@@ -305,4 +310,34 @@ header{
     font-family: "Arial", serif;
     letter-spacing: 1.5px;
     line-height: 25px;
+}
+
+@media (max-width 700px) {
+  .title_h1{
+    font-size: 26px;
+  }
+  .title_subtext{
+    top: 200px;
+  }
+  .menu{
+    left: 0;
+ }
+  .menu a {
+    font-size: 13px;
+  }
+  .menu ul {
+    flex-wrap: wrap;
+  }
+  .skills__statistic {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width 560px) {
+  .fewWords__row { 
+    flex-wrap: wrap-reverse;
+  }
+  .fewWords__column {
+    flex: 0 0 100%;
+  }
 }
