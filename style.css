@@ -284,15 +284,15 @@ header{
     color: #6b726b;
     font-size: small;
     font-style: italic;
-    padding: 0 15px;
+    padding: 0 15px 6px;
     position: relative;
 }
 .fewWords a:before {
     position: absolute;
     content: '';
-    width: 50px;
+    width: 190px;
     height: 2px;
-    background-color: #6b726b;
+    background: linear-gradient(90deg, rgb(2 0 36 / 21%) 0%, rgba(216,245,205,1) 35%, rgb(0 255 154 / 5%) 100%);
     bottom: 0;
     left: 0;
 }
