@@ -268,6 +268,35 @@ header{
     padding: 0 7px;
 }
 
+/*Секция works of mine----------------------*/
+.fewWorks {
+    margin-top: 25px;
+    padding: 0 20px;
+    border-left: 5px solid #dceae0;
+}
+
+.fewWorks p {
+    line-height: 30px;
+}
+
+.fewWords p a {
+    display: block;
+    color: #6b726b;
+    font-size: small;
+    font-style: italic;
+    padding: 0 15px;
+    position: relative;
+}
+.fewWords p a:before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #6b726b;
+    bottom: 0;
+    left: 0;
+}
+
 /*Секция perspectives----------------------*/
 .perspectives{
     padding: 60px 0;
