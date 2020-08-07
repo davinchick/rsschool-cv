@@ -153,8 +153,9 @@ header{
     width: 100%;
     position: fixed;
     left: 18.5%;
-    background-color: #c7d8c587;
+    background-color: #c7d8c5bd;
     padding-bottom: 10px;
+    z-index: 10;
 }
 
 .menu ul{
@@ -174,7 +175,7 @@ header{
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #ba9680;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     transition: all 0.3s ease 0s;
 }
 
@@ -271,8 +272,9 @@ header{
 /*Секция works of mine----------------------*/
 .fewWorks {
     margin-top: 25px;
-    padding: 0 20px;
+    padding: 0 20px 30px;
     border-left: 5px solid #dceae0;
+    border-bottom: 1px solid #dceae0;
 }
 
 .fewWorks p {
@@ -311,11 +313,11 @@ header{
     content: '';
     display: inline-block;
     margin-right: 18px;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #3f3214;
-    border-radius: 50%;
-    background-color: rgba(212, 189, 162, 0.42);
+    width: 9px;
+    height: 16px;
+    border: solid #a6cab0;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
 }
 
 /*Секция footer----------------------*/
@@ -334,18 +336,21 @@ header{
 .footer-body__column {
     text-align: center;
     flex: 0 0 50%;
+    color: #626463;
 }
 
 .footer-body__column a{ 
     padding: 0 15px;
-    color: #4d4037;
-    font-family: var(--super);
+    color: #6f734a;
+    font-family: monospace;
+    font-size: 18px;
     font-weight: 700;
+    transition: all 0.3s ease 0s;
 }
 
 .footer-body__column a:hover{
     text-decoration: underline;
-    color: #fff;
+    color: #e5f3d4;
 }
 
 .footer__text {
@@ -354,6 +359,7 @@ header{
     font-family: "Arial", serif;
     letter-spacing: 1.5px;
     line-height: 25px;
+    text-align: left;
 }
 
 
