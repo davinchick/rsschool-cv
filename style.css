@@ -279,7 +279,7 @@ header{
     line-height: 30px;
 }
 
-.fewWords p a {
+.fewWords a {
     display: block;
     color: #6b726b;
     font-size: small;
@@ -287,7 +287,7 @@ header{
     padding: 0 15px;
     position: relative;
 }
-.fewWords p a:before {
+.fewWords a:before {
     position: absolute;
     content: '';
     width: 50px;
